@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BookShopping_VF_prj</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about_me">About Me</string>
+    <string name="title_activity_activity2">Activity2</string>
+    <string name="title_activity_activity3">Activity3</string>
+    <string name="title_activity_product_details">ProductDetailsActivity</string>
+    <string name="title_activity_activity4">Activity4</string>
+    <string name="title_activity_cart_details">CartDetailsActivity</string>
+    <string name="title_activity_activity5">Activity5</string>
+    <string name="title_activity_about_me">AboutMe</string>
+
+</resources>

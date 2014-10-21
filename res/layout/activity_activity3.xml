@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/catSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip" />
+
+    <TextView
+        android:id="@+id/catTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="Product Catalog"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="18dip" >
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ListViewCatalog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:cacheColorHint="#ffffff"
+        android:clickable="true" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/LinearCat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ButtonSignOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="5dip"
+            android:onClick="SignOut"
+            android:text="Sign Out" >
+        </Button>
+
+        <Button
+            android:id="@+id/ButtonViewCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dip"
+            android:text="View Shopping Cart" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
